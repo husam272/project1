@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container .img {
+    height: 100vh;
+    width: 100%;
+    background: url('./images/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg');
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+    /* filter: contrast(60%); */
+}
+
+
+.container .navi {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .navi #logo img {
+    width: 15%;
+    margin-left: 70px;
+}
+
+.container .navi #sign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.container .navi #sign .sigin button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container .navi #sign .sigin button:hover{
+    background: black;
+}
+
+.container .navi #sign .selection select {
+    padding: 8px 18px;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.container .parah {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.container .parah .p1 {
+    max-width: 35%;
+}
+
+.container .parah .p1 h1 {
+    text-align: center;
+    font-size: 60px;
+    /* word-spacing: 8.5px; */
+}
+
+.container .parah .p1 h1 span {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container .parah .p2 {
+    max-width: 25%;
+}
+
+.container .parah .p2 h4 {
+    font-size: 22px;
+}
+
+.container .parah .p3 p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container .inp {
+    display: flex;
+    justify-content: center;
+}
+
+.container .inp .txt {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.container .inp .txt input {
+    width: 100%;
+    padding: 22px 2px;
+    border: none;
+    font-size: 1rem;
+}
+
+.container .inp .txt input::placeholder {
+    transform: translateX(10px);
+    text-transform: capitalize;
+    font-size: medium;
+}
+
+.container .inp .btn {
+    padding: 12px 4rem;
+    background-color: red;
+    cursor: pointer;
+}
+
+.container .inp .btn button {
+    font-size: xx-large;
+    color: white;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container .inp .btn:hover{
+    background: black;
+}
